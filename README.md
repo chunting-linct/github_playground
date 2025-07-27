@@ -1,3 +1,3 @@
-# Python Template
+# GitHub Playground
 
-A minimal Python package structure for fast project setup.
+Test Git and Github and Github action.
