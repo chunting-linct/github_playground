@@ -15,4 +15,4 @@ COPY src .
 
 
 # Define the command to run your application
-CMD ["python", "main.py"]
+CMD ["celery", "-A", "tasks", "worker", "--loglevel=info"]
